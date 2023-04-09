@@ -9,12 +9,12 @@ const ProgressBar = ({ startDate, endDate }) => {
 
   return (
     <div>
-      <div style={{ backgroundColor: 'red' }}>
+      <div style={{ backgroundColor: 'tomato' }}>
         <div
           style={{
             width: `${progress}%`,
             height: '20px',
-            backgroundColor: 'green',
+            backgroundColor: 'teal',
             textAlign: 'center',
             color: 'white',
           }}
